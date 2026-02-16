@@ -2,100 +2,329 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Dipak Wankhede - Frontend Developers</title>
-    <script src="https://kit.fontawesome.com/61aa2e5ef2.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-=======
-    <title>Dipak Wankhede - Frontend Developer</title>
-   
->>>>>>> 4f610c58cf236b3e8edfeece3670188c2a309106
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Dipak portfolio</title>
+
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <!-- Animated Background -->
-    <div class="bg-animation">
-        <div class="floating-shape shape-1"></div>
-        <div class="floating-shape shape-2"></div>
-        <div class="floating-shape shape-3"></div>
-        <div class="floating-shape shape-4"></div>
-    </div>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
 
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo">
-                <span class="logo-text">Diapk</span>
-                <span class="logo-accent">Wankhede</span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#servicse">services</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#contact">contact</a>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-badge">Frontend Developer</div>
-            <h1 class="hero-title">
-                <span class="title-line">Crafting</span>
-                <span class="title-line accent-line">Digital</span>
-                <span class="title-line">Experiences</span>
-            </h1>
-            <p class="hero-subtitle">Transforming ideas into beautiful, responsive web interfaces with modern technologies and creative design thinking</p>
-            <div class="hero-cta">
-                <a href="#projects" class="cta-button primary">View My Work</a>
-                <a href="#contact" class="cta-button secondary">Get In Touch</a>
-            </div>
-            <div class="scroll-indicator">
-                <span>Scroll</span>
-                <div class="scroll-line"></div>
-            </div>
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello , I am</h3>
+      <h1>Dipak Wankhede </h1>
+      <p>
+        Full Stack Java Developer<br />
+        Java , JDBC , Servlet , JSP , Hibernate <br> Spring Framework , MySQL. <br> HTML5 , CSS3 , JavaScript.
+      </p>
+
+      <div class="social-media">
+        <a href="https://github.com/dipakwankhede"><i class="bx bxl-github"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://www.linkedin.com/in/dipak-wankhede-a66b30277/"><i class="bx bxl-linkedin-square"></i></a>
+      </div>
+
+      <a href="Dipak_Resume..pdf" download class="btn">Download CV</a>
+    </div>
+    <div id="professionSection" style="margin: 0; padding: 0;">
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bxl-java"></i>
+            <h3>Java</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class='bx bx-code-alt'></i>
+            <h3>Hibernate</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class='bx bx-code'></i>
+            <h3>Spring Boot</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class='bx bx-database-alt'></i>
+            <h3>My SQL</h3>
+          </div>
+          <div class="circle"></div>
         </div>
-    </section>
- <!-- About Section -->
-    <section id="about" class="fade-in">
-        <div class="section-header">
-            <span class="section-number">01</span>
-            <h2>About Me</h2>
-        </div>
-        <div class="about-content">
-            <div class="about-image-wrapper">
-                <div class="image-frame">
-                    <img src="./images/Dipak_img.jpeg" class="about-image" alt="Dipak Wankhede" />
-                    <div class="image-accent"></div>
-                </div>
-            </div>
-            <div class="about-text">
-                <div class="about-intro">
-                    <h3>Hello! I'm Dipak bhai </h3>
-                    <p class="lead">A passionate frontend developer dedicated to creating responsive and user-friendly web interfaces that make a real impact.</p>
-                </div>
-                <div class="about-details">
-                    <p>I specialize in transforming ideas into functional, visually appealing websites using HTML, CSS, and JavaScript. My approach combines technical expertise with creative design thinking to deliver modern web applications that users love.</p>
-                    <p>I believe in writing clean, maintainable code and creating experiences that not only look great but solve real problems. Continuous learning and staying current with the latest web technologies drive my passion for development.</p>
-                </div>
-              
-            </div>
-        </div>
-    </section>
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="images/developer.webp" alt="" />
+      </div>
+    </div>
+    </div>
+
+
+    <div class="overlay"></div>
+    </div>
+
+    <div class="home-img">
+      <img src="images/developer.webp" alt="" />
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/developer 2.png" alt="" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Hi, I'm Here to Help You Next Project!</h3>
+      <p>
+        I Am Currently a Second-Year Student at Saraswati College, Shegaon, pursuing a Postgraduate Degree in Master of
+        Computer Applications (MCA).
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+ 
+
+  <!-- portfolio section design -->
+  <!-- services section design -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-laptop"></i>
+        <h3>Back-End Development</h3>
+        <p>Building robust and scalable server-side applications, APIs, and databases using Java, Spring Boot,
+          Hibernate.</p>
+        <a href="#contact" class="btn">Inquire Now</a>
+      </div>
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Front-End Development</h3>
+        <p>Creating responsive and user-friendly interfaces with HTML, CSS, JavaScript.
+        </p>
+        <a href="#contact" class="btn">Inquire Now</a>
+      </div>
+      <div class="services-box">
+        <i class='bx bxs-data'></i>
+        <h3>Database Management</h3>
+        <p>Designing and managing efficient databases using both SQL (MySQL)  technologies for
+          optimal performance.</p>
+        <a href="#contact" class="btn">Inquire Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section design (IMPROVED FOR MOBILE) -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <a href="http://reliantaindustries.com/" target="_blank" rel="noopener noreferrer">
+          <img src="images/portfolio3.jpg" alt="Relianta Industries Website" />
+          <div class="portfolio-layer">
+            <h4>Relianta-Industries</h4>
+            <p>Built with HTML, CSS, JS.</p>
+            <i class="bx bx-link-external"></i>
+          </div>
+        </a>
+      </div>
+      <div class="portfolio-box">
+        <a href="https://github.com/ganeshb01/TechBlog" target="_blank" rel="noopener noreferrer">
+          <img src="images/portfolio1.jpg" alt="TechBlog Project" />
+          <div class="portfolio-layer">
+            <h4>Tech Blog</h4>
+            <p>Built with Java,Servlet,JSP,JDBC,MySQL</p>
+            <i class="bx bx-link-external"></i>
+          </div>
+        </a>
+      </div>
+    
+        </a>
+      </div>
+      <div class="portfolio-box">
+        
+          <img src="images/portfolio4.jpg" alt="Banking Management System" />
+          <div class="portfolio-layer">
+            <h4>Banking Management System</h4>
+            <p>User-friendly login page using HTML & CSS</p>
+            <i class="bx bx-link-external"></i>
+          </div>
+        </a>
+      </div>
+     
+        </a>
+      </div>
+     
+    </div>
+  </section>
+ 
+
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">contact <span>Me!</span></h2>
+
+    <form name="submit-to-google-sheet">
+      <div class="input-box">
+        <input type="text" name="Name" placeholder="Full name" />
+        <input type="text" name="email" placeholder="Email Address" />
+      </div>
+      <div class="input-box">
+        <input type="number" name="Number" placeholder="Mobile Number" />
+        <input type="text" name="mailSub" placeholder="Email Subject" />
+      </div>
+
+      <textarea name="Massage" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
+      <button>Submit</button>
+    </form>
+  </section>
+
+  <!-- footer design -->
+  <!-- <footer class="footer">
+      <div class="footer-text">
+      
+      </div> -->
+  <!-- ========================= FOOTER START ========================= -->
+  <footer
+    style="background-color: #2c3e50; color: #ecf0f1; padding: 60px 20px; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6;">
+
+    <div style="max-width: 1300px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+      <!-- Column 1: About Us -->
+      <div style="flex: 1; min-width: 250px; margin: 20px;">
+        <h4
+          style="color: #1abc9c; margin-top: 0; margin-bottom: 20px; border-bottom: 2px solid #34495e; padding-bottom: 10px;">
+          About Us</h4>
+        <p style="margin: 0;">
+          We are a team dedicated to creating amazing web experiences. Our mission is to provide high-quality products
+          and services that bring value to our customers and partners.
+        </p>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div style="flex: 1; min-width: 250px; margin: 20px;">
+        <h4
+          style="color: #1abc9c; margin-top: 0; margin-bottom: 20px; border-bottom: 2px solid #34495e; padding-bottom: 10px;">
+          Quick Links</h4>
+        <ul style="list-style-type: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 10px;"><a href="#" style="color: #ecf0f1; text-decoration: none;">Home</a></li>
+          <li style="margin-bottom: 10px;"><a href="#" style="color: #ecf0f1; text-decoration: none;">Services</a></li>
+          <li style="margin-bottom: 10px;"><a href="#" style="color: #ecf0f1; text-decoration: none;">Portfolio</a></li>
+          <li style="margin-bottom: 10px;"><a href="#" style="color: #ecf0f1; text-decoration: none;">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Follow Us -->
+      <div style="flex: 1; min-width: 250px; margin: 20px;">
+        <h4
+          style="color: #1abc9c; margin-top: 0; margin-bottom: 20px; border-bottom: 2px solid #34495e; padding-bottom: 10px;">
+          Follow Us</h4>
+        <ul style="list-style-type: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 10px;"><a href="https://github.com/dipakwankhede"
+              style="color: #ecf0f1; text-decoration: none;">Github</a></li>
+          <li style="margin-bottom: 10px;"><a href="#" style="color: #ecf0f1; text-decoration: none;">Twitter</a></li>
+          <li style="margin-bottom: 10px;"><a href=""
+              style="color: #ecf0f1; text-decoration: none;">Instagram</a></li>
+          <li style="margin-bottom: 10px;"><a href="https://www.linkedin.com/in/dipak-wankhede-a66b30277/"
+              style="color: #ecf0f1; text-decoration: none;">LinkedIn</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div
+      style="text-align: center; padding: 20px 0 0 0; margin-top: 40px; border-top: 1px solid #34495e; font-size: 14px;">
+      <p style="margin: 0;">© 2025 Ganesh Bage. All Rights Reserved.</p>
+    </div>
+
+    <!-- Mobile Responsive Script -->
+    <script>
+      function adjustFooterLayout() {
+        const width = window.innerWidth;
+        const container = document.querySelector('footer > div');
+        if (width < 768) {
+          container.style.flexDirection = 'column';
+          const columns = container.querySelectorAll('div[style*="min-width"]');
+          columns.forEach(col => col.style.textAlign = 'center');
+        } else {
+          container.style.flexDirection = 'row';
+          const columns = container.querySelectorAll('div[style*="min-width"]');
+          columns.forEach(col => col.style.textAlign = 'left');
+        }
+      }
+      window.addEventListener('resize', adjustFooterLayout);
+      window.addEventListener('load', adjustFooterLayout);
+    </script>
+
+  </footer>
+
+  <!-- ========================= FOOTER END ========================= -->
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzpf9rp-gyAIc477pJqXfUqMFFOObjgYDbr1QbtHuRHHPatTk3A-ItriGNONLD3YyoF7g/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+  <script>
+    function hideSectionOnMobile() {
+      const section = document.getElementById("professionSection");
+      if (window.innerWidth <= 768) {
+        section.style.display = "none";   // removes it completely including its space
+      } else {
+        section.style.display = "block";  // shows it on larger screens
+      }
+    }
+
+    window.addEventListener("load", hideSectionOnMobile);
+    window.addEventListener("resize", hideSectionOnMobile);
+  </script>
+
 
 </body>
 
 </html>
+
 
