@@ -9,7 +9,7 @@ Name:Dipak Wankhede.
 Day 02 Progress Report
 Date: 17/02/2026
 In Time: 08:00 am
-Out Time: 0:30 pm
+Out Time: 10:30 pm
 Name: Dipak wankhede .
 College: Sarswati college Shegaon .
 
