@@ -29,3 +29,26 @@ Required Upgrades:
 
 GitHub Backend Link:
 (https://github.com/dipakwankhede/My-portfolio).
+
+
+
+Daily Progress Report
+Day 02 Report
+Date: 18/02/2026
+In Time: 1:30 pm
+Out Time: 3:29 pm
+Name: Dipak Wankhede
+College: Sarswati College, Shegaon
+
+Progress Summary:
+* Implemented smooth animations and transition effects to enhance overall user experience.
+* Added hover effects and interactive UI improvements for better visual appeal.
+* Successfully hyperlinked social media buttons (LinkedIn, GitHub, Twitter) to respective profiles.
+* Implemented backend functionality for the Download Resume button.
+* Updated and pushed all changes to the GitHub repository.
+Required Upgrades:
+• Optimize website performance and loading speed.
+• Improve mobile responsiveness and cross-browser compatibility.
+• Deploy the portfolio website using GitHub Pages or other hosting platforms.
+GitHub Backend Link:
+(https://github.com/dipakwankhede/My-portfolio).
